@@ -15,7 +15,7 @@ Command prompt and "cd" to api folder, run "pip install -r requirements.txt" to 
 After that same location run "uvicorn app.main:app --port 9900" then can be use already
 
 ### Get endpoint
-http://localhost:9900/assessment/<name>    (GET method)
+http://localhost:9900/assessment/{name}    (GET method)
 
 ### Update endpoint
 http://localhost:9900/assessment	   (PUT method)
