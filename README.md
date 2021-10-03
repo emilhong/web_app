@@ -1,16 +1,26 @@
-# web_app
+# Wep App
+It using Flutter platform with Dart language, and drag_and_drop_lists library. It have include desktop view and mobile view
 
-A new Flutter project.
+# How to run it
+Open it on visual studio code, re-save again the pubspec.yaml for install others library,click on main.dart inside lib folder, click the run on the top menu and debugging it
 
-## Getting Started
 
-This project is a starting point for a Flutter application.
+--------------------------------------------------------------------------------------
 
-A few resources to get you started if this is your first Flutter project:
+# API Project
+It using python with FastAPI as framework and some library
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+# How to run it
+Command prompt and "cd" to api folder, run "pip install -r requirements.txt" to install all library or can create one virtual enviroment to install it. 
+After that same location run "uvicorn app.main:app --port 9900" then can be use already
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Get endpoint
+http://localhost:9900/assessment/<name>    (GET method)
+
+## Update endpoint
+http://localhost:9900/assessment	   (PUT method)
+json
+{
+  "name": "string",
+  "monthly_salary": 0
+}
